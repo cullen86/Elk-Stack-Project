@@ -4,15 +4,15 @@ Elk Stack Class Project
 
 ### Git Commands
 
-## 
+## Add new files/directories to our git tracking
 
 git add .
 
-## Commits items to be changed and pushed to cloud.
+## Commits files that we added to our set of changes
 
 git commit -a -m "message about the changes (present tense)"
 
-## Push changes to the cloud.
+## Push our set of changes changes to the cloud.
 
 git push
 
@@ -20,3 +20,7 @@ git push
 
 git pull
 
+## Let git know who you are
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
