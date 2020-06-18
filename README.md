@@ -24,3 +24,11 @@ git pull
 
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
+
+
+###### DOCKER COMMANDS #######
+# Docker Status
+    systemctl status docker
+
+# Enter Container
+    sudo docker run -ti cyberxsecurity/ansible bash
