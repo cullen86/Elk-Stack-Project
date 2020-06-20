@@ -26,9 +26,16 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
 
+### Root Home Command ####
+    cd ~
+
 ###### DOCKER COMMANDS #######
 # Docker Status
     systemctl status docker
 
-# Enter Container
+# Start docker and Enter Container
     sudo docker run -ti cyberxsecurity/ansible bash
+
+
+### Install YML Playbook ###
+ansible-playbook install-elk.yml
